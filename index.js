@@ -158,7 +158,7 @@ app.delete('/book/:bookid', function (req, res) {
 		booksReference.remove()
 		res.send("Success!!");
 	}
-	if (error) throw error;
+	//if (error) throw error;
 
 
 
